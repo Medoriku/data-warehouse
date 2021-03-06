@@ -132,6 +132,11 @@ margin: 50px 0px 65px 0px;
 
 .btn--dark:hover{
   box-shadow: 0px 10px 5px rgba(50, 61, 68, 0.3);
+  transform: translateY(-5px) scale(1.1);
+}
+
+.btn--dark:active {
+  transform: translateY(0) scale(1);
 }
 
 
